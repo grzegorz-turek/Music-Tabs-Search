@@ -1,0 +1,14 @@
+@import '../src/styles/global_settings.scss';
+
+body {
+    margin: 0;
+    font-family: $std-font-family;
+    font-size: $std-font-size;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $color-daisy;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

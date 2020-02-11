@@ -1,0 +1,49 @@
+@import '../../../styles/global_settings.scss';
+
+.search-item {
+    border: $std-border-width solid $color-gold;
+    border-radius: $std-border-radius;
+    background-color: $color-gold;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: $color-greenery;
+
+    &__artist h1, h2 {
+        margin: 0;
+    }
+
+    &__tabs {
+        padding-top: 5px;
+    }
+
+    &__link {
+        margin-top: 4px;
+        background-color: $color-greenery;
+        border: $std-border-width solid $color-greenery;
+        border-radius: $std-border-radius;
+        width: 110px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        transition: .5s;
+
+        &:hover {
+            background-color: $color-daisy;
+            border: $std-border-width solid $color-daisy;
+            border-radius: $std-border-radius;
+            
+            a {
+                color: $color-greenery;
+            }
+
+        }
+
+        a {
+            color: $color-daisy;
+            transition: .5s;
+            text-decoration: none;
+        }
+
+    }
+
+}

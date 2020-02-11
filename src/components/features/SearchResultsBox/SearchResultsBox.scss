@@ -1,0 +1,58 @@
+@import '../../../styles/global_settings.scss';
+
+.search-results-box {
+    padding-top: 70px;
+    background-color: $color-daisy;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        width: 900px;
+        margin: 30px 10px;
+
+        &__items-found-count {
+            margin: 0 10px;
+        }
+
+    }
+
+}
+
+@media (max-width: 991.99px) {
+    .search-results-box {
+        padding-top: 125px;
+    }    
+}
+
+@media (max-width: 479.99px) {
+    body {
+        font-size: 15px;
+
+        .search-results-box {
+            padding-top: 95px;
+        }    
+    
+
+        .search-bar__container {
+            margin: 10px!important;
+
+            &__box {
+                margin-left: 0!important;
+                margin-right: 0!important;
+
+                &:first-of-type {
+                    margin-bottom: 10px;
+                }
+
+                &__input {
+                    font-size: 15px!important;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

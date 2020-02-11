@@ -1,6 +1,6 @@
 # Music Tab Search
 
-## 1. To run project remotely (heroku): [ click here](https://tabs-search.herokuapp.com/)
+## 1. To run project remotely (heroku): [ click here](https://music-tabs-search.herokuapp.com/)
 
 ## 2. To run project locally:
 - clone repository
